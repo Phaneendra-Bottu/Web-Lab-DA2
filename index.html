@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <title>Sliding Tile Puzzle</title>
+</head>
+
+<body onload="setUp()">
+    <h1>The 8-Tile-Puzzle</h1>
+    <div id="modal" class="hide">
+        <span id="modal-1">Congratulations! <br></span>
+        <p id="message"></p>
+    </div>
+    <div id="container">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        
+    </div>
+    <p id="moves">Your Moves: 0</p>
+    <input id="refresh-btn" type="button" value="New Game" onClick="window.location.reload();">
+
+</body>
+<script src="script.js"></script>
+
+</html>
